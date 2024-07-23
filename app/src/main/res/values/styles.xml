@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="delete_button_style" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="background">@drawable/red_rounded_background</item>
+        <item name="color">#ff0000</item>
+    </style>
+
+</resources>

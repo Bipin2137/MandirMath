@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "82086341845",
+    "project_id": "goa-mandir",
+    "storage_bucket": "goa-mandir.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82086341845:android:503e58030d5694cd91065c",
+        "android_client_info": {
+          "package_name": "com.antariksha.goamandir"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnyN7vgplzvIIEVTw9nWhtuSNSxV7iNIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

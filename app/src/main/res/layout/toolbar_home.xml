@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/primaryColor"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/five_dp"
+        android:paddingRight="@dimen/five_dp">
+
+        <TextView
+            android:text="My Diary"
+            android:id="@+id/toolbar_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#111" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- **** Place Your Content Here **** -->
+
+        <View
+            android:id="@+id/vw_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/toolbar_dropdownshadow" />
+
+    </FrameLayout>
+
+</LinearLayout>
